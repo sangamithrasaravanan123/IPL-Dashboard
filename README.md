@@ -1,67 +1,56 @@
-🏏 IPL Dashboard - Data-Driven Cricket Insights
-IPL Dashboard, an interactive web application built using Streamlit that transforms IPL data into compelling visuals and actionable insights. Whether you're a cricket enthusiast, data analyst, or just curious about IPL trends, this dashboard offers an engaging way to explore player performances, team strategies, venue statistics, and more.
+# 🏏 IPL Dashboard - Data-Driven Cricket Insights
 
-📁 Dataset
-This project uses the IPL Complete Dataset (2008–2024), available on Kaggle:
+The **IPL Dashboard** is an interactive web application built using **Streamlit** that transforms IPL data into compelling visuals and actionable insights. Whether you're a cricket enthusiast, data analyst, or just curious about IPL trends, this dashboard offers an engaging way to explore player performances, team strategies, venue statistics, and more.
 
-🔗 Download Dataset from Kaggle
-https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020
+## 📁 Dataset
 
-Make sure to place the following CSVs inside a folder named data:
-matches.csv
-deliveries.csv
+This project uses the **IPL Complete Dataset (2008–2024)**, available on Kaggle:
 
-🚀 Features
-IPL Season Overview: Quick KPIs, matches per season, top teams, and players.
+- 🔗 [Download Dataset from Kaggle](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
 
-Team Strategy Insights: Toss decisions, win conversion rates, and batting strategy effectiveness.
+### Make sure to place the following CSVs inside a folder named `data`:
 
-Venue Insights: Venue-based average win margins and top-performing teams.
+- `matches.csv`
+- `deliveries.csv`
 
-Player Performance: Individual batting stats with strike rate, runs, and match-wise performance trends.
+## 🚀 Features
 
-Player Comparison: Head-to-head comparison of key batting stats between two players.
+The **IPL Dashboard** offers the following features:
 
-Season-wise Team Performance: Year-by-year wins and losses for any team.
+### **1. IPL Season Overview**
+- Quick KPIs like total matches, seasons, and teams.
+- Matches per season breakdown.
+- Top teams and players based on wins and awards.
 
+### **2. Team Strategy Insights**
+- Toss decisions and their win conversion rates.
+- Batting strategy effectiveness based on match results.
 
+### **3. Venue Insights**
+- Venue-based average win margins.
+- Top-performing teams at each venue.
 
-🛠️ Tech Stack
-Frontend: Streamlit
+### **4. Player Performance**
+- Individual batting stats such as strike rate, runs, and balls faced.
+- Match-wise performance trends.
 
-Backend: Python (Pandas, Altair, Plotly)
+### **5. Player Comparison**
+- Head-to-head comparison of key batting stats between two players.
 
-Visualization: Plotly, Altair, Streamlit Charts
+### **6. Season-wise Team Performance**
+- Year-by-year breakdown of wins and losses for any selected team.
 
-Deployment Ready: Easily deployable to platforms like Streamlit Cloud or Render
+## 🛠️ Tech Stack
 
+- **Frontend**: Streamlit
+- **Backend**: Python (Pandas, Altair, Plotly)
+- **Visualization**: Plotly, Altair, Streamlit Charts
+- **Deployment Ready**: Easily deployable to platforms like Streamlit Cloud or Render
 
-💻 How to Run Locally
-Clone the repository
+## 💻 How to Run Locally
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/sangamithrasaravanan123/IPL-Dashboard.git
-
 cd IPL-Dashboard
-
-Install dependencies
-Make sure you have Python 3.8+ installed. Then, create a virtual environment (optional) and install packages:
-
-pip install -r requirements.txt
-
-Add Dataset
-Download the dataset from Kaggle (linked above), and place matches.csv and deliveries.csv in a folder named data.
-
-STRUCTURE
-IPL-Dashboard/
-├── data/
-│   ├── matches.csv
-│   └── deliveries.csv
-├── streamlit_app.py
-└── pages/
-     |__ 1_Overview.py
-     |__ ....
-
-Run the App
-streamlit run streamlit_app.py
-
-License
-This project is licensed under the MIT License. Feel free to fork, modify, and contribute.
