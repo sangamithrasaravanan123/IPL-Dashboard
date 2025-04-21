@@ -1,0 +1,44 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and configuration files
+.env
+*.env
+venv/
+*.pyenv/
+*.conda
+*.pdb
+*.log
+
+# Streamlit specific
+.streamlit/
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.h5
+
+# IDE and editor specific files
+.idea/
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Test and coverage reports
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
